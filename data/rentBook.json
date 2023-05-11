@@ -1,0 +1,16 @@
+[ 
+    {
+        "ProfileId": 1,
+        "BookId": 1,
+        "dateBorrow": "2023-05-11",
+        "dateMustReturn": "2023-05-14",
+        "dateReturn": "2023-05-13"
+    },
+    {
+        "ProfileId": 2,
+        "BookId": 2,
+        "dateBorrow": "2023-05-11",
+        "dateMustReturn": "2023-05-14",
+        "dateReturn": "2023-05-13"
+    }
+]

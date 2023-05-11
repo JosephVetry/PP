@@ -1,0 +1,17 @@
+[ 
+    {
+        "title": "The Legend of Callback",
+        "genre": "Horror",
+        "author": "Tama"
+    },
+    {
+        "title": "Game of Promise",
+        "genre": "Sci-fi",
+        "author": "Dea"
+    },
+    {
+        "title": "Mystery of JavaScript",
+        "genre": "Thriller",
+        "author": "Hacktiv8"
+    }
+]

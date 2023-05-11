@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('_link') %>
+    <title>Home</title>
+</head>
+<body>
+    <%- include('_navbar') %>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Book Title</th>
+            <th scope="col">Genre</th>
+            <th scope="col">Author</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+            <% data.forEach(el => { %>
+                <tr>
+                  <td><%= el.title %></td>
+                  <td><%= el.genre %></td>
+                  <td><%= el.author %></td>
+                  <td><a class="btn btn-danger" href="/home/delete/<%= el.id %>" role="button">Delete</a></td>
+                </tr>
+            <% }) %>
+      </table>
+</body>
+</html>

@@ -1,0 +1,14 @@
+[ 
+    {
+        "firstName": "admin",
+        "lastName": "admin",
+        "gender": "Male",
+        "AccountId": 1
+    },
+    {
+        "firstName": "joseph",
+        "lastName": "vetry",
+        "gender": "Male",
+        "AccountId": 2
+    }
+]
